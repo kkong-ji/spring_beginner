@@ -86,9 +86,7 @@ Hello
 💡 **MVC와 템플릿 엔진** <br>
 💡 **API**
 
-</aside>
-
-## 정적 컨텐츠
+### 정적 컨텐츠
 
 - 스프링 부트 정적 컨텐츠 기능
 - [https://docs.spring.io/spring-boot/docs/2.4.13/reference/html/spring-boot-features.html#boot-features-spring-mvc-static-content](https://docs.spring.io/spring-boot/docs/2.4.13/reference/html/spring-boot-features.html#boot-features-spring-mvc-static-content)
@@ -102,7 +100,7 @@ Hello
     3. 그러나 **hello-static**이라는 컨트롤러는 없음. 따라서 스프링 부트는 `resources: static/hello-static.html`을 찾게됨.
     4. 찾으면 바로 리턴
 
-## MVC와 템플릿 엔진
+### MVC와 템플릿 엔진
 
 - **MVC:** Model, View, Controller
     
@@ -156,7 +154,7 @@ Hello
         3. **스프링은 model이 담긴 viewResolver를 동작시킴.**
         4. **Thymeleaf 템플릿 엔진이 viewResolver의 model을 렌더링해서 변환 후, 웹 브라우저로 전송.**
 
-## API
+### API
 
 **“@ResponseBody 문자 반환”**
 
